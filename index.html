@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <title>JobFinder</title>
+    <link rel="shortcut icon" href="images/LOGO.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">JobFinder</h2>
+
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                   <a href="#" class="nav__links">Inicio</a> 
+                </li>
+                <li class="nav__items">
+                    <a href="#servicios" class="nav__links">Servicios</a> 
+                 </li>
+                 <li class="nav__items">
+                    <a href="#nosotros" class="nav__links">Nosotros</a> 
+                 </li>
+                 <li class="nav__items">
+                    <a href="#testimonios" class="nav__links">Testimonios</a> 
+                 </li>
+                 <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a> 
+                 </li>
+                 <li class="nav__items">
+                    <a href="#" class="nav__links">Login</a> 
+                 </li>
+
+                 <img src="images/marca-x (1).png" class="nav__close">
+
+            </ul>
+
+            <div class="nav__menu">
+                <img src="images/menu (1).png" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">¡Encuentra tu oportunidad laboral ideal con nosotros!</h1>
+            <p class="hero__paragraph">Conectamos a candidatos talentosos con reclutadores que buscan habilidades únicas.</p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+    
+    <main>
+        <section class="container about"  id="servicios">
+            <h2 class="subtitle">Servicios</h2>
+            <p class="about__paragraph">Brindamos una experiencia excepcional tanto a postulantes en busca del trabajo perfecto como a reclutadores en la búsqueda del candidato ideal.</p> 
+            
+            <div class="about__main">
+                <article class="about_icons">
+                    <img src="./images/job1.png" class="about__icon">
+                    <h3 class="about__title">Para postulantes</h3>
+                    <p class="about__paragraph">Puedes crear y personalizar tus anuncios de trabajo, especificando los detalles clave como responsabilidades...</p>
+                </article>
+
+                <article class="about_icons">
+                    <img src="./images/job2.png" class="about__icon">
+                    <h3 class="about__title">Para reclutadores</h3>
+                    <p class="about__paragraph">Obtén acceso a una lista de trabajos que se adaptan a tus necesidades y habilidades, lo que te permite encontrar...</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge" id="nosotros">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Sobre nosotros</h2>
+                    <p class="knowledge__paragraph">Somos más que un equipo, somos una comunidad dedicada a transformar el mundo laboral para mejor
+                        que comparten una visión común: ayudar a jóvenes universitarios y empleadores a encontrar la combinación perfecta.</p>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/team.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="testimony"  id="testimonios">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Laura García, <span class="testimony__course">Gerente de Recursos Humanos</span></h2>
+                        <p class="testimony__review">"Encontrar talento adecuado para nuestra empresa solía ser todo un desafío. Desde que descubrimos JobFinder, nuestro proceso de selección se ha simplificado enormemente. La calidad de los candidatos y la facilidad para gestionar todo el proceso nos ha sorprendido gratamente. ¡Recomendado para reclutadores ocupados como nosotros!"</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/person1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Carlos Alcántara, <span class="testimony__course">Actor</span></h2>
+                        <p class="testimony__review">"Como actor, la búsqueda de oportunidades laborales puede ser un desafío. Descubrir JobFinder ha sido un cambio de juego para mí. No solo he encontrado castings y audiciones alineados con mis habilidades, sino que también he recibido asesoramiento valioso sobre cómo destacar en la industria del entretenimiento."</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/person2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Juan Rodriguez, <span class="testimony__course">Coordinador de Recursos Humanos</span></h2>
+                        <p class="testimony__review">""La versatilidad de la plataforma nos ha permitido ampliar nuestra red de talento de manera significativa. Hemos mejorado nuestra eficiencia en la selección de personal gracias a las herramientas de filtrado y las recomendaciones personalizadas. Definitivamente, JobFinder se ha convertido en una herramienta imprescindible en nuestra estrategia de reclutamiento."</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/person3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="contact__container container">
+                <h2 class="subtitle">Contáctanos</h2>
+                <form id="contact-form" class="contact__form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nombre y Apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta">Enviar</button>
+                </form>
+                <div class="contact-info">
+                    <div class="email">
+                        <img src="images/gmail.png" alt="Correo Electrónico">
+                        <p>ServicioCliente@jobfinder.com</p>
+                    </div>
+                    <div class="phone">
+                        <img src="images/telefono.png" alt="Teléfono">
+                        <p>xxx xxx xxx</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        
+    </main>
+
+
+    <script src="./js/slider.js"></script>
+</body>
+</html>
